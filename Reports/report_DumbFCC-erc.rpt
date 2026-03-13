@@ -1,0 +1,66 @@
+ERC report (2026-03-13T15:25:48+0000, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library '5027740891'.
+    ; warning
+    @(0.6223 mm, 0.7112 mm): Symbol J402 [5027740891]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library '5027740891'
+    ; warning
+    @(0.6223 mm, 0.7112 mm): Symbol J402 [5027740891]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'AT25DF321A-SH-T'
+    ; warning
+    @(0.4826 mm, 1.1557 mm): Symbol U400 [AT25DF321A-SH-T]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'AI-1027-TWT-3V-R'.
+    ; warning
+    @(1.1938 mm, 1.0922 mm): Symbol BZ400 [Buzzer]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'DS04-254-1-02BK-SMT'.
+    ; warning
+    @(1.6002 mm, 0.6096 mm): Symbol SW400 [SW_DIP_x02]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'DTS-32N-V-B'.
+    ; warning
+    @(1.5748 mm, 1.143 mm): Symbol SW401 [SW_Push]
+
+[footprint_link_issues]: The current configuration does not include the footprint library '2171790001_MOL'.
+    ; warning
+    @(1.7018 mm, 1.0922 mm): Symbol J506 [2171790001]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library '2026-01-15_13-06-23'
+    ; warning
+    @(1.7018 mm, 1.0922 mm): Symbol J506 [2171790001]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'MCP2562T-E_SN'
+    ; warning
+    @(2.2987 mm, 0.6223 mm): Symbol U500 [MCP2562T-E_SN]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ADP3330ARTZ3.3-RL7'
+    ; warning
+    @(1.4351 mm, 0.9271 mm): Symbol U100 [ADP3330ARTZ3.3-RL7]
+
+[lib_symbol_mismatch]: Symbol 'Crystal_GND23' doesn't match copy in library 'Device'
+    ; warning
+    @(2.4638 mm, 0.889 mm): Symbol Y200 [Crystal_GND23]
+
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Power/
+***** Sheet /Project Architecture/MCU/
+***** Sheet /Project Architecture/Sensors/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(1.1557 mm, 0.8001 mm): Symbol U301 Pin 2 [SDX, Bidirectional, Line]
+    @(2.1082 mm, 1.0922 mm): Symbol J506 Pin B1/A12 [GND, Power output, Line]
+
+***** Sheet /Project Architecture/Peripherals/
+***** Sheet /Project Architecture/Connections/
+[multiple_net_names]: Both I2C_PERIPH_SCL and I2C_SCL are attached to the same items; I2C_PERIPH_SCL will be used in the netlist
+    ; warning
+    @(1.3081 mm, 0.5715 mm): Label 'I2C_PERIPH_SCL'
+    @(1.3081 mm, 0.5715 mm): Label 'I2C_SCL'
+
+***** Sheet /Revision History/
+ ** ERC messages: 13  Errors 0  Warnings 13
