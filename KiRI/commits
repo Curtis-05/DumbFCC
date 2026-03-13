@@ -1,2 +1,4 @@
 _local_|2026-03-13|root|Local changes not committed|False|True
-5872e6a|2026-03-13|Curtis-05|Merge pull request #1 from Curtis-05/dev|True|True
+261c7c2|2026-03-13|Curtis-05|[PCB][Fixed] Fixed wrong Diode footprint and Changed TVS diode package, also changed wrong footprint of CAN transiever chip. [Changed] Changed the FLASH chip to a different model due to a stocking issue|True|True
+567d120|2026-03-13|GitHub Actions|Update Outputs (release)|False|True
+c7d61c2|2026-03-13|Curtis-05|Resolved ERC errors|True|False
