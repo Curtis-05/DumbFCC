@@ -5,8 +5,8 @@
 <h1 align="center">Dumb FCC</h1>
 
 <p align="center" width="100%">
-  <a href="/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/Curtis-05/DumbFCC/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/Curtis-05/DumbFCC/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 

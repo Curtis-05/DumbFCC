@@ -1,0 +1,9 @@
+DumbFCC|DumbFCC.kicad_sch||DumbFCC|DumbFCC
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|DumbFCC-Block Diagram
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|DumbFCC-Project Architecture
+Connections|Connections.kicad_sch||Connections|DumbFCC-Project Architecture-Connections
+MCU|MCU.kicad_sch||MCU|DumbFCC-Project Architecture-MCU
+Peripherals|Peripherals.kicad_sch||Peripherals|DumbFCC-Project Architecture-Peripherals
+Power|Power.kicad_sch||Power|DumbFCC-Project Architecture-Power
+Sensors|Sensors.kicad_sch||Sensors|DumbFCC-Project Architecture-Sensors
+Revision History|Revision History.kicad_sch||Revision History|DumbFCC-Revision History
