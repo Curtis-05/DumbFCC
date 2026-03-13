@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DO214AAC")(type "KiCad")(uri "${KICAD_USER_DIR}/M5")(options "")(descr ""))
+)
