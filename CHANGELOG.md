@@ -2,18 +2,9 @@
 
 ## [Unreleased]
 
-### Fixed
-
--   Fixes
 
 ### Added
 
--   Additions
+-   First version of schematic and PCB layout
 
-### Changed
 
--   Changes
-
-### Removed
-
--   Deletions
