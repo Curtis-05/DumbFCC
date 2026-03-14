@@ -21,7 +21,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 20,6,R100 R402 R403 R404 R405 R406,330,~,R_0805_2012Metric,Resistor,,,
 21,1,R200,620,~,R_0805_2012Metric,Resistor,,,
 22,2,R503 R504,5k1,~,R_0805_2012Metric,Resistor,,,
-23,9,R201 R300 R302 R303 R304 R400 R401 R500 R501,10k,~,R_0805_2012Metric,Resistor,,,
+23,9,R201 R300 R301 R302 R303 R400 R401 R500 R501,10k,~,R_0805_2012Metric,Resistor,,,
 24,1,SW400,Mode Switch,~,SW_DS04-254-1-02BK-SMT,"2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",,,
 25,1,SW401,Reset,~,DTS32NVB,"Push button switch, generic, two pins",,,
 26,1,U100,ADP3330ARTZ3.3-RL7,,SOT-23-6,,,,
