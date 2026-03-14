@@ -276,6 +276,10 @@
         ""
       ],
       [
+        "pin_to_pin|1612900|850900|c129376a-3146-4703-a194-2af16d0ee67d|8d3a3065-f0cc-404e-827e-bb057670ccec|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/58f06ef5-dfdb-4ead-843d-bbbaac634f9b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/58f06ef5-dfdb-4ead-843d-bbbaac634f9b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/58f06ef5-dfdb-4ead-843d-bbbaac634f9b",
+        ""
+      ],
+      [
         "pin_to_pin|1612900|876300|80887139-6b0c-4378-ac43-803aafd414cc|b130fda9-2bc0-4572-a3a7-08c9bbc2a673|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/58f06ef5-dfdb-4ead-843d-bbbaac634f9b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/58f06ef5-dfdb-4ead-843d-bbbaac634f9b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/58f06ef5-dfdb-4ead-843d-bbbaac634f9b",
         ""
       ],
@@ -535,48 +539,14 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.15,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.28,
-        "diff_pair_width": 0.2032,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "CAN Bus",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Chassis",
-        "pcb_color": "rgb(139, 103, 213)",
-        "priority": 2,
-        "schematic_color": "rgb(139, 103, 213)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -584,62 +554,11 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 0)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "High Power",
-        "pcb_color": "rgb(177, 11, 198)",
-        "priority": 4,
-        "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.2,
         "via_diameter": 0.7,
         "via_drill": 0.3,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Kelvin Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power 12V",
-        "pcb_color": "rgb(255, 0, 171)",
-        "priority": 6,
-        "schematic_color": "rgb(255, 0, 171)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
         "wire_width": 24
       },
       {
@@ -652,11 +571,11 @@
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgb(220, 142, 0)",
-        "priority": 7,
+        "priority": 2,
         "schematic_color": "rgb(220, 142, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "track_width": 0.25,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
@@ -669,51 +588,17 @@
         "microvia_drill": 0.1,
         "name": "Power 5V",
         "pcb_color": "rgb(212, 0, 32)",
-        "priority": 8,
+        "priority": 3,
         "schematic_color": "rgb(212, 0, 32)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "track_width": 0.4,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 24
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power A3V3",
-        "pcb_color": "rgb(162, 155, 0)",
-        "priority": 9,
-        "schematic_color": "rgb(162, 155, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.28,
-        "diff_pair_width": 0.2032,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RS422 Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.4,
-        "diff_pair_width": 0.2,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.154,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB Diff Pair",
@@ -721,98 +606,94 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.154,
-        "via_diameter": 0.55,
-        "via_drill": 0.25
+        "via_diameter": 0.7,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Project Architecture/Power/+5V_IN": [
-        "Power 5V"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_R+"
       },
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_R-"
       },
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_D-"
       },
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_D+"
       },
       {
-        "netclass": "Chassis",
+        "netclass": "Default",
         "pattern": "CHASSIS"
       },
       {
-        "netclass": "CAN Bus",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_P"
       },
       {
-        "netclass": "CAN Bus",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/SA_P"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/SA_N"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/SB_P"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/SB_N"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/SC_P"
       },
       {
-        "netclass": "Kelvin Diff Pair",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/SC_N"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "+VBAT"
       },
       {
@@ -820,35 +701,35 @@
         "pattern": "GND"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/VIN_5V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/VIN_12V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/F_VBAT_12V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/F_VBAT_5V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_5V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_12V"
       },
       {
-        "netclass": "Power 12V",
+        "netclass": "Default",
         "pattern": "+12V"
       },
       {
-        "netclass": "Power 12V",
+        "netclass": "Default",
         "pattern": "/Project Architecture/Power - Generation/SW_12V"
       },
       {
@@ -868,11 +749,11 @@
         "pattern": "/Project Architecture/Power - Generation/SW_5V"
       },
       {
-        "netclass": "Power A3V3",
+        "netclass": "Default",
         "pattern": "+A3V3"
       },
       {
-        "netclass": "Power A3V3",
+        "netclass": "Default",
         "pattern": "/Project Architecture/MCU - Power/F_A3V3"
       },
       {
@@ -898,6 +779,10 @@
       {
         "netclass": "USB Diff Pair",
         "pattern": "/Project Architecture/Connections/USB_D+"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Connections/V_BUS"
       }
     ]
   },
@@ -1085,28 +970,28 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES",
     "BOARD_NAME": "Dumb FCC",
     "COMPANY": "Group Alpha",
     "DESIGNER": "Curtis Dickson",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL SNPB\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR PURPLE.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY GROUP ALPHA.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t70.000 \u00d7 50.000 mm\n\tBOARD THICKNESS\t\t1.600 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.150 mm\n\tMIN. HOLE (PTH)\t\t\t0.300 mm\n\tMIN. HOLE (NPTH)\t\t0.600 mm\n\tANNULAR RING\t\t\t0.195 mm\n\tCOPPER TO HOLE\t\t0.300 mm\n\tCOPPER TO EDGE\t\t0.500 mm\n\tHOLE TO HOLE\t\t\t0.250 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
-    "GIT_HASH_PCB": "261c7c2",
-    "GIT_HASH_SCH": "ecd2227",
-    "GIT_URL": "https://github.com/Curtis-05/DumbFCC",
+    "FABRICATION_NOTES": "FABRICATION NOTES",
+    "GIT_HASH_PCB": "",
+    "GIT_HASH_SCH": "",
+    "GIT_URL": "",
     "PROJECT_NAME": "ASDP4 2025/26",
-    "RELEASE_BODY_1.0.0": "___________________________________\n\nAdded\n\n-   First version of schematic and PCB layout",
+    "RELEASE_BODY_1.0.0": "",
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
-    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "13-Mar-2026",
-    "RELEASE_DATE_NUM": "2026-03-13",
-    "RELEASE_TITLE_1.0.0": "Version 1.0.0 - 2026-03-13",
+    "RELEASE_BODY_UNRELEASED": "",
+    "RELEASE_DATE": "DD-MMM-YYYY",
+    "RELEASE_DATE_NUM": "YYYY-MM-DD",
+    "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
-    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "1.0.0+ (Unreleased)",
+    "RELEASE_TITLE_UNRELEASED": "",
+    "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -1147,6 +1032,6 @@
     "SHEET_NAME_7": "Peripherals",
     "SHEET_NAME_8": "Connections",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": ""
   }
 }

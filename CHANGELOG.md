@@ -11,6 +11,7 @@
 ### Changed
 
 -   Changed the AT25DF321A-SH-T to the SST26VF064BT-104I/SM due to availability issues
+-   Rerouted board 
 
 
 ## [1.0.0] - 2026-03-13
