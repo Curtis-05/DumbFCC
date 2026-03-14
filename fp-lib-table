@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DO214AAC")(type "KiCad")(uri "${KICAD_USER_DIR}/M5")(options "")(descr ""))
+  (lib (name "USB C")(type "KiCad")(uri "${KICAD_USER_DIR}/2171790001_MOL")(options "")(descr ""))
+  (lib (name "SD Card")(type "KiCad")(uri "${KICAD_USER_DIR}/5027740891")(options "")(descr ""))
+  (lib (name "Buzzer")(type "KiCad")(uri "${KICAD_USER_DIR}/AI-1027-TWT-3V-R")(options "")(descr ""))
+  (lib (name "2 Circuit DIP SW")(type "KiCad")(uri "${KICAD_USER_DIR}/DS04-254-1-02BK-SMT")(options "")(descr ""))
+)

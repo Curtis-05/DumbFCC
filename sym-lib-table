@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "M5")(type "KiCad")(uri "${KICAD_USER_DIR}/M5/M5.kicad_sym")(options "")(descr ""))
+)

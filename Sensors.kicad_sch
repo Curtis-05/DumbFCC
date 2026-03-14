@@ -3689,7 +3689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32917418-c7ac-4303-bc57-80facd10ced9")
-		(property "Reference" "R304"
+		(property "Reference" "R303"
 			(at 64.77 129.54 0)
 			(effects
 				(font
@@ -3741,7 +3741,7 @@
 		(instances
 			(project "DumbFCC"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e922dba6-6fdb-4354-bccd-57166a6199c3"
-					(reference "R304")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -3890,7 +3890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b422b42-beae-4c68-a594-4f25faf29892")
-		(property "Reference" "R303"
+		(property "Reference" "R302"
 			(at 54.61 129.54 0)
 			(effects
 				(font
@@ -3942,7 +3942,7 @@
 		(instances
 			(project "DumbFCC"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e922dba6-6fdb-4354-bccd-57166a6199c3"
-					(reference "R303")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -6306,7 +6306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7c6ef5b-9066-4061-8ddf-5e63571927ee")
-		(property "Reference" "R302"
+		(property "Reference" "R301"
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -6358,7 +6358,7 @@
 		(instances
 			(project "DumbFCC"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e922dba6-6fdb-4354-bccd-57166a6199c3"
-					(reference "R302")
+					(reference "R301")
 					(unit 1)
 				)
 			)

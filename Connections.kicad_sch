@@ -1585,168 +1585,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD131-B1-W0201"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD131-B1-W0201"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SG?WLL?2?3*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD131-B1-W0201_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD131-B1-W0201_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCP2562T-E_SN:MCP2562T-E_SN"
 			(pin_names
 				(offset 1.016)
@@ -2042,6 +1880,257 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Protection:ESDA5V3L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESDA5V3L"
+				(at 5.715 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at -15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESDA5V3L_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDA5V3L_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDA5V3L_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2810,6 +2899,12 @@
 		(uuid "eb2d756e-c6f5-41fe-a977-f5977432b2e1")
 	)
 	(junction
+		(at 133.35 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e3fa99-dadc-4012-82c2-392191647938")
+	)
+	(junction
 		(at 199.39 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2826,12 +2921,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29cf2ebc-b924-4b52-83c4-ae46a74425f0")
-	)
-	(junction
-		(at 125.73 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fe7b0a4-1bd1-4c85-abf7-4deb991dfa2f")
 	)
 	(junction
 		(at 165.1 111.76)
@@ -2888,28 +2977,22 @@
 		(uuid "9c1c312c-64fc-4a0a-88e4-10356369cf9c")
 	)
 	(junction
-		(at 135.89 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f30163b-9b4e-48ab-ac8b-591b0769ab12")
-	)
-	(junction
 		(at 199.39 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aad62b4d-fe66-4dda-957b-6eb4e22c97d2")
 	)
 	(junction
+		(at 128.27 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b19db122-03de-4f83-941d-ff4facff21be")
+	)
+	(junction
 		(at 71.12 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b812045f-4018-4e41-be5b-346ec550cb09")
-	)
-	(junction
-		(at 135.89 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c175c5cb-0382-4407-b197-c617b266d771")
 	)
 	(junction
 		(at 210.82 115.57)
@@ -3162,16 +3245,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 135.89 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc37ce4-d31c-4482-8fb1-e195ba89e689")
-	)
-	(wire
-		(pts
 			(xy 162.56 114.3) (xy 162.56 129.54)
 		)
 		(stroke
@@ -3210,6 +3283,16 @@
 		)
 		(uuid "15a8c885-5fd0-44c5-901d-cbdd417aa375")
 	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c694f0-f2e7-4298-8031-fbdff647375d")
+	)
 	(bus
 		(pts
 			(xy 34.29 120.65) (xy 35.56 120.65)
@@ -3219,16 +3302,6 @@
 			(type default)
 		)
 		(uuid "16dba17c-ca07-44fe-8877-3401ad91fcfb")
-	)
-	(wire
-		(pts
-			(xy 135.89 128.27) (xy 140.97 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16df570e-1d1e-4da9-bc0d-a472e6f933f7")
 	)
 	(wire
 		(pts
@@ -3259,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "1cb3a057-d58b-4330-8fb4-bef8fa1a4057")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d01feb9-3a8d-44a2-8ac7-422f4ae50c8d")
 	)
 	(wire
 		(pts
@@ -3319,6 +3402,16 @@
 			(type default)
 		)
 		(uuid "2e95a81c-a529-4455-a1e3-b38534fab07b")
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f7ef56-a5f5-46a2-97dd-211d5e1c155a")
 	)
 	(wire
 		(pts
@@ -3419,16 +3512,6 @@
 			(type default)
 		)
 		(uuid "4548bd61-a88c-496f-a3a2-7dae1570df06")
-	)
-	(wire
-		(pts
-			(xy 120.65 111.76) (xy 135.89 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afe1942-8099-4928-8dce-2f08eafaf9d2")
 	)
 	(wire
 		(pts
@@ -3612,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 114.3) (xy 125.73 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784e9c81-a390-4980-86eb-489fc7a381aa")
-	)
-	(wire
-		(pts
 			(xy 63.5 130.81) (xy 63.5 135.89)
 		)
 		(stroke
@@ -3682,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 125.73 114.3)
+			(xy 120.65 114.3) (xy 128.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3822,6 +3895,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 128.27) (xy 140.97 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3ba226-dd85-4ec4-9ca0-a882c21c33fb")
+	)
+	(wire
+		(pts
 			(xy 46.99 86.36) (xy 58.42 86.36)
 		)
 		(stroke
@@ -3842,16 +3925,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 127) (xy 135.89 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d60117-b63d-49e0-9a51-ecd7548158a4")
-	)
-	(wire
-		(pts
 			(xy 71.12 88.9) (xy 76.2 88.9)
 		)
 		(stroke
@@ -3859,16 +3932,6 @@
 			(type default)
 		)
 		(uuid "a5fd9dcb-3e0d-4e9b-949f-4b56943fe231")
-	)
-	(wire
-		(pts
-			(xy 125.73 114.3) (xy 162.56 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7029007-5d0a-460c-8471-b05ce64cedd9")
 	)
 	(wire
 		(pts
@@ -3929,6 +3992,16 @@
 			(type default)
 		)
 		(uuid "b0cd0ec1-c9e1-4327-a590-056532117d96")
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31d4414-30e6-4576-8217-0da754abc952")
 	)
 	(wire
 		(pts
@@ -4072,7 +4145,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 165.1 111.76)
+			(xy 120.65 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4272,16 +4345,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 128.27) (xy 135.89 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94747d5-8de1-4f7a-920c-416f8008ab92")
-	)
-	(wire
-		(pts
 			(xy 80.01 48.26) (xy 92.71 48.26)
 		)
 		(stroke
@@ -4289,16 +4352,6 @@
 			(type default)
 		)
 		(uuid "f9f7c4a0-486d-4776-812c-8b909c785faa")
-	)
-	(wire
-		(pts
-			(xy 125.73 127) (xy 125.73 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0a2dfb-0970-4138-aa60-fe9c5ce4ffce")
 	)
 	(label "PWM_2"
 		(at 58.42 88.9 180)
@@ -4310,16 +4363,6 @@
 		)
 		(uuid "00c606ad-dacd-4de1-b375-1963e01f004d")
 	)
-	(label "UART_TX"
-		(at 80.01 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "024a1fea-5656-4f84-8a59-77acbe6b4f60")
-	)
 	(label "I2C_PERIPH_SDA"
 		(at 130.81 54.61 0)
 		(effects
@@ -4329,16 +4372,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d02ad3f-2072-4728-b5c5-62d0a062e4f3")
-	)
-	(label "SWCLK"
-		(at 36.83 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f8d1f39-5d5f-466e-afec-9cef25e511e5")
 	)
 	(label "V_BUS"
 		(at 210.82 115.57 0)
@@ -4360,6 +4393,16 @@
 		)
 		(uuid "10ab670b-a4a7-4df4-88c5-cfcf8b3235cf")
 	)
+	(label "UART_RX"
+		(at 80.01 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e070c3c-949c-429e-a787-c2911e68ce4a")
+	)
 	(label "I2C_SCL"
 		(at 130.81 57.15 0)
 		(effects
@@ -4369,6 +4412,16 @@
 			(justify left bottom)
 		)
 		(uuid "496fc62e-4c38-4999-a92a-8df6b81d7f36")
+	)
+	(label "UART_TX"
+		(at 80.01 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c988503-c181-4dba-960e-ed3581919022")
 	)
 	(label "CAN_RX"
 		(at 204.47 48.26 0)
@@ -4389,6 +4442,16 @@
 			(justify right bottom)
 		)
 		(uuid "66300899-d96f-4bec-a3c1-07260d601cff")
+	)
+	(label "SWCLK"
+		(at 36.83 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c521976-c385-41a7-9ccc-49b36f398873")
 	)
 	(label "I2C_PERIPH_SCL"
 		(at 130.81 57.15 0)
@@ -4439,16 +4502,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2a7987a-ff7b-464b-8eb0-746194517275")
-	)
-	(label "UART_RX"
-		(at 80.01 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a43a85e7-39db-4022-9182-ce9222afc390")
 	)
 	(label "PWM_1"
 		(at 58.42 86.36 180)
@@ -4501,14 +4554,14 @@
 		(uuid "e152f6a9-430d-4e9d-bce2-6a0b96575291")
 	)
 	(label "SWDIO"
-		(at 36.83 52.07 0)
+		(at 36.83 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e22f02df-4945-415c-b8df-02f6940d8300")
+		(uuid "e21506f7-dfa2-41d2-9630-3dc215f0172e")
 	)
 	(label "CAN_RX"
 		(at 247.65 62.23 0)
@@ -5031,73 +5084,6 @@
 			(project "DumbFCC"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/904480b2-0b69-41e3-b6b3-5a1a9df106a3"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 135.89 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dc221a8-54be-49e5-9e31-464b481420f4")
-		(property "Reference" "D501"
-			(at 132.08 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TVS"
-			(at 132.08 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ace1a55-63c4-4a53-a0cc-1e3e27a88bbf")
-		)
-		(pin "1"
-			(uuid "52a0c35a-a9b2-453d-8f4c-2a5fccd584ae")
-		)
-		(instances
-			(project "DumbFCC"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/904480b2-0b69-41e3-b6b3-5a1a9df106a3"
-					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -6114,6 +6100,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:ESDA5V3L")
+		(at 130.81 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9871c6b9-6c0d-4f5c-98b0-837920a18d54")
+		(property "Reference" "D500"
+			(at 116.586 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESDA6V1l-tp"
+			(at 113.538 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 115.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+			(at 130.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
+			(at 130.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9383663c-6204-4305-a1af-ec4beb1019bc")
+		)
+		(pin "3"
+			(uuid "a33e8e06-1634-4ff3-ae37-93163ffc32e7")
+		)
+		(pin "1"
+			(uuid "bb93a1f6-53c3-4dd7-bc8a-5f23984b2c62")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/904480b2-0b69-41e3-b6b3-5a1a9df106a3"
+					(reference "D500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 52.07 0)
 		(unit 1)
@@ -6481,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 229.87 62.23 0)
 			(effects
 				(font
@@ -7195,7 +7254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f68adb59-d655-4e91-9271-3d5fee1544ce")
-		(property "Reference" "D502"
+		(property "Reference" "D501"
 			(at 234.95 120.65 0)
 			(effects
 				(font
@@ -7211,7 +7270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "DO214AAC:P25_DO-214AC_SMA"
 			(at 234.95 115.57 0)
 			(effects
 				(font
@@ -7247,7 +7306,7 @@
 		(instances
 			(project "DumbFCC"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/904480b2-0b69-41e3-b6b3-5a1a9df106a3"
-					(reference "D502")
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -7313,73 +7372,6 @@
 			(project "DumbFCC"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/904480b2-0b69-41e3-b6b3-5a1a9df106a3"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 125.73 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8b702f6-9685-4735-b0e4-6762120715ca")
-		(property "Reference" "D500"
-			(at 121.92 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TVS"
-			(at 121.92 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 125.73 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 125.73 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 125.73 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1fdd509-6d17-43fb-a3f9-082dc005ccf8")
-		)
-		(pin "1"
-			(uuid "05441574-a6d3-4926-9250-aa460347ce6d")
-		)
-		(instances
-			(project "DumbFCC"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/904480b2-0b69-41e3-b6b3-5a1a9df106a3"
-					(reference "D500")
 					(unit 1)
 				)
 			)

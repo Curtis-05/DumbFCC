@@ -2,6 +2,18 @@
 
 ## [Unreleased]
 
+### Fixed
+
+-   Changed footprint of U302 to correct one
+-   Changed footprint of D401 from 0805 to D0-214AC to match part availability 
+-   Swapped the two TVS diodes to a combined package (ESDA6V1l-tp) with footprint SOT-23
+
+### Changed
+
+-   Changed the AT25DF321A-SH-T to the SST26VF064BT-104I/SM due to availability issues
+-   Rerouted board 
+
+
 ## [1.0.0] - 2026-03-13
 
 ### Added
